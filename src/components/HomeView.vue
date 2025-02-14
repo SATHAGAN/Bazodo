@@ -80,12 +80,16 @@
       <div>
         <re-view/>
       </div>
+      <div>
+        <about-end/>
+      </div>
     </div>
   
 </template>
 
 
 <script lang="ts">
+import AboutEnd from './AboutEnd.vue'
 import ReView from './ReView.vue'
 import PlatForm from './PlatForms.vue'
 import CardPro from './CardPro.vue'
@@ -98,7 +102,8 @@ export default {
     FreaturedProduct,
     CardPro,
     PlatForm,
-    ReView
+    ReView,
+    AboutEnd
   },
   methods: {
     // prevSlide() {

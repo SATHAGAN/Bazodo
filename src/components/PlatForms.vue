@@ -24,7 +24,7 @@
 p {
   text-align: center;
   font-size: 30px;
-  padding: 30px;
+  padding: 10px;
   
 }
 .headcard span {

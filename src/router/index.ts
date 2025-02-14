@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
  import HomeView from '../components/HomeView.vue'
+ import ContactUs from '../components/ContactUs.vue'
  
 
 const router = createRouter({
@@ -18,6 +19,12 @@ const router = createRouter({
       // which is lazy-loaded when the route is visited.
       component: () => import('../components/AboutUs.vue'),
     },
+    {
+      path: '/Contactus',
+      name: 'Contact',
+      component: ContactUs,
+    },
+
   ],
 })
 
